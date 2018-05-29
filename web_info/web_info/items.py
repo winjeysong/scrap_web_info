@@ -7,10 +7,12 @@
 
 import scrapy
 
-
 class WebInfoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    university = scrapy.Field() # 学校
+    major = scrapy.Field() #专业
+    subject = scrapy.Field() #科目
+    sub_symbol = scrapy.Field() #科目代码
 
 

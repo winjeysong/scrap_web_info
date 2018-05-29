@@ -97,3 +97,4 @@ ENV/
 
 # mypy
 .mypy_cache/
+web_info/web_info/items_all.json
